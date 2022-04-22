@@ -1,5 +1,5 @@
-# bme280-driver
-Complete and easy-to-use driver for the Bosch BME280 environmental sensor.
+# bme-driver
+Complete and easy-to-use driver for the Bosch BMP280 and BME280 sensors
 
 ![GitHub Workflow Status](https://img.shields.io/github/workflow/status/rogiervandergeer/bme-driver/Continuous%20Integration) 
 ![PyPI](https://img.shields.io/pypi/v/bme-driver)
@@ -14,4 +14,7 @@ The package is available on [PyPI](https://pypi.org/project/bme-driver/). Instal
 pip install bme-driver
 ```
 
-## Usage
+## References
+
+- [BMP280 product page](https://www.bosch-sensortec.com/products/environmental-sensors/pressure-sensors/bmp280/)
+- [BME280 product page](https://www.bosch-sensortec.com/products/environmental-sensors/humidity-sensors-bme280/)
