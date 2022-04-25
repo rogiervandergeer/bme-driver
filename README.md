@@ -14,6 +14,11 @@ The package is available on [PyPI](https://pypi.org/project/bme-driver/). Instal
 pip install bme-driver
 ```
 
+## Release notes
+
+- `0.1.1`: Fix unit of pressure measurement in docstring
+- `0.1.0`: Initial release
+
 ## References
 
 - [BMP280 product page](https://www.bosch-sensortec.com/products/environmental-sensors/pressure-sensors/bmp280/)

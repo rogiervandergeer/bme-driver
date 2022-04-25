@@ -144,7 +144,7 @@ class BMP280:
 
     @property
     def pressure(self) -> float:
-        """Returns the pressure in hPa."""
+        """Returns the pressure in Pa."""
         return self.measurement.pressure
 
     @property
