@@ -1,3 +1,34 @@
 [build-system]
-requires = ["setuptools >= 40.6.0", "wheel"]
+requires = ["setuptools >= 40.6.0", "wheel", "setuptools_scm[toml]>=6.2"]
 build-backend = "setuptools.build_meta"
+
+[project]
+name = "bme-driver"
+authors = [
+    {name = "Rogier van der Geer", email = "rogier@vander-geer.nl"},
+]
+description = "Python driver for the Bosch BMP280 and BME280 sensors."
+readme = "README.md"
+requires-python = ">=3"
+license = {text = "Apache License 2.0"}
+keywords = []
+classifiers = [
+    "Intended Audience :: Developers",
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: Apache Software License",
+    "Topic :: System :: Hardware :: Hardware Drivers",
+    "Typing :: Typed",
+]
+dependencies = [
+    "smbus2 >= 0.3.0",
+]
+dynamic = ["version"]
+
+[project.urls]
+Repository = "https://github.com/rogiervandergeer/bme-driver"
+
+[tool.setuptools.package-data]
+bme = ["py.typed"]
+
+[tool.setuptools_scm]
+write_to = "src/bme/_version.py"
