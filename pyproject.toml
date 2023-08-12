@@ -28,7 +28,7 @@ dynamic = ["version"]
 Repository = "https://github.com/rogiervandergeer/bme-driver"
 
 [tool.setuptools.package-data]
-bme-driver = ["py.typed"]
+bme = ["py.typed"]
 
 [tool.setuptools_scm]
 write_to = "src/bme/_version.py"
