@@ -24,6 +24,9 @@ dependencies = [
 ]
 dynamic = ["version"]
 
+[project.optional-dependencies]
+dev = ["pytest", "pytest-mock"]
+
 [project.urls]
 Repository = "https://github.com/rogiervandergeer/bme-driver"
 

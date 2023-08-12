@@ -22,8 +22,7 @@ jobs:
 
       - name: Install Dependencies
         run: |
-          pip3 install pytest pytest-mock
-          pip3 install -e .
+          pip3 install -e ".[dev]"
 
       - name: Run Pytest
         run: pytest
