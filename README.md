@@ -1,7 +1,7 @@
 # bme-driver
 Complete and easy-to-use driver for the Bosch BMP280 and BME280 sensors
 
-![GitHub Workflow Status](https://img.shields.io/github/workflow/status/rogiervandergeer/bme-driver/Continuous%20Integration) 
+![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/rogiervandergeer/bme-driver/test.yaml)
 ![PyPI](https://img.shields.io/pypi/v/bme-driver)
 ![PyPI - License](https://img.shields.io/pypi/l/bme-driver)
 ![PyPI - Downloads](https://img.shields.io/pypi/dm/bme-driver) 
